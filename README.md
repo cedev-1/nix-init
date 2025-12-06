@@ -17,9 +17,9 @@ Done! Your environment is ready.
 
 When you run nix-init, it creates the following structure:
 
-- flake.nix: A standard flake with a devShell containing git and hello (as a test). It uses a helper function to support multiple architectures automatically.
-- .envrc: Contains use flake to hook into direnv.
-- .gitignore: Appends .direnv to keep your git repo clean.
+- **flake.nix**: A standard flake with a devShell containing git and hello (as a test). It uses a helper function to support multiple architectures automatically.
+- **.envrc**: Contains use flake to hook into direnv.
+- **.gitignore**: Appends .direnv to keep your git repo clean.
 
 Use `direnv allow` to activate the environment (if you have direnv installed).
 
