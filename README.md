@@ -10,6 +10,9 @@ Go to your project directory and run:
 
     nix run github:cedev-1/nix-init
 
+**Or install with bash:**
+
+    bash -c "$(wget -qLO - https://raw.githubusercontent.com/cedev-1/nix-init/main/init.sh)"
 
 Done! Your environment is ready.
 
